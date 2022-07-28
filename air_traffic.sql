@@ -31,11 +31,10 @@ CREATE TABLE location(
   country_id INT NOT NULL REFERENCES country ON DELETE CASCADE
 );
 
-CREATE TABLE airline()
-{
+CREATE TABLE airline(
 id SERIAL PRIMARY KEY,
 name TEXT NOT NULL
-};
+);
 
 CREATE TABLE plane
 (
